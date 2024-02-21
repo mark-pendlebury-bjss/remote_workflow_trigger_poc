@@ -1,6 +1,6 @@
 # GitHub Workflow Trigger
 
-This repository contains an exmaple Python script which demonstrates how to trigger a github workflow using the PyGithub library. It also contains an example basic github workflow.
+This repository contains an exampleog how to trigger a github workflow using the PyGithub library. It also contains an example github workflow which echos out an inputted string.
 
 ## What the Code Does
 
