@@ -2,10 +2,10 @@ name: "Example Workflow"
 
 on:
   workflow_dispatch:
-    # inputs:
-    #   account_id:
-    #     description: "Account ID"
-    #     required: true
+    inputs:
+      account_id:
+        description: "Account ID"
+        required: true
 
 jobs:
   TestJob:
