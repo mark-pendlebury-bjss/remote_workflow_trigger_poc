@@ -1,0 +1,19 @@
+name: "Example Workflow"
+
+on:
+  workflow_dispatch:
+    inputs:
+      account_id:
+        description: "Account ID"
+        required: true
+
+jobs:
+  TestJob:
+    name: Test Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo ${{ github.event.inputs.account_id }}
+    
