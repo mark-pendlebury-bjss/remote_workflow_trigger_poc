@@ -13,7 +13,7 @@ This repository contains an exampleog how to trigger a github workflow using the
    - Creates an instance of GitHub and logs in using the provided token.
    - Retrieves the repository object.
    - Retrieves the workflow object from the repository.
-   - Triggers the workflow on the specified branch, passing the account ID as an input.
+   - Triggers the workflow on the specified branch, passing a string as an input.
 3. Calls the `trigger_workflow` function.
 
 ## How to Use
