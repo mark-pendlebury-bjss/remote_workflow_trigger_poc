@@ -2,10 +2,10 @@ name: "Example Workflow"
 
 on:
   workflow_dispatch:
-    inputs:
-      account_id:
-        description: "Account ID"
-        required: true
+    # inputs:
+    #   account_id:
+    #     description: "Account ID"
+    #     required: true
 
 jobs:
   TestJob:
@@ -17,3 +17,5 @@ jobs:
       - name: Run a one-line script
         run: echo ${{ github.event.inputs.account_id }}
     
+
+
